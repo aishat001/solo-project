@@ -1,0 +1,83 @@
+.section3 {
+    display: grid;
+    align-items: center;
+    width: 100%;
+    min-height: calc(100vh - 12rem);
+    background: rgb(144, 221, 170);
+}
+.container-fluid3 {
+    width: 90%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    line-height: 2;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+.sec3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 95%;
+    height: 300px; 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact {
+    display: grid;
+    align-content: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    background:rgb(64, 89, 107); 
+    margin: auto;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.contact > p {
+    margin-top: 50px;
+    background: white;
+    height: 100px;
+}
+
+.ticket {
+    display: grid;
+    align-content: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 350px;
+    background: rgb(64, 89, 107);
+    text-align: center;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.ticket > p {
+    margin-top: 50px;
+    background: white;
+    height: 100px;
+}
+.list {
+    display: grid;
+    align-content: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 350px;
+    background: rgb(64, 89, 107);
+    text-align: center;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.list > p {
+    margin-top: 50px;
+    background: white;
+    height: 100px;
+}
+span > img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}

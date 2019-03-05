@@ -1,0 +1,52 @@
+.section4 {
+    display: grid;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+}
+.container-fluid4 {
+    width: 50%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sec4 {
+    display: grid;
+    width: 90%;
+    height: 350px; 
+    margin-top: 40px;
+    padding-left: 50px;
+    text-align: center;
+}
+.sec4 > .btn {
+    background: rgb(64, 89, 107);
+    color: white;
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.sec4 > .btn > a > span {
+    color: white;
+}
+.sec4 > p {
+    font-size: 1.2rem;
+}
+.sec4 > .big {
+    font-size: 1.3rem;
+}
+footer {
+    display: grid;
+    align-items:center;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background: #40596b;
+    color: white;
+}
+.footer > p {
+    margin-bottom: 10px;
+}
