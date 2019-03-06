@@ -2,12 +2,15 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: Signika, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;}
-.container {
+    font-family: Signika, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+    .container {
     width: 100%;
     margin: auto;
     background: rgb(64, 89, 107);
 }
+
+
 div.nav {
     display: grid;
     width: 100%;
@@ -25,7 +28,10 @@ li{
     list-style-type: none;
     cursor: pointer;
     margin: auto;
+}
+li > a {
     color: #ffd05a;
+    text-decoration: none;
 }
 li:hover{
     color: white;
@@ -72,7 +78,6 @@ li:hover{
 }
 .p {
     font-size:1.5em;
-    width: max-content;
 }
 .btn {
    
@@ -101,3 +106,31 @@ li:hover{
     margin-top: 4px;
 }
 
+@media only screen and (min-width : 320px) and (max-width : 900px) {
+    ul{
+        width: 80%;
+        display: flex;
+    }
+    .container-fluid {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        height: 55rem;
+
+    }
+    div.right {
+        max-width: 20rem;
+        height: 25rem;
+    }
+    .left {
+        margin: 0px;
+        padding: 0px;
+    }
+    .left > svg  {
+        margin: auto;
+    }
+
+    .section1 {
+        min-height: calc(150vh - 10rem);
+    }
+}
